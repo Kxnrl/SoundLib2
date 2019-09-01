@@ -49,7 +49,7 @@ native int GetSoundSamplingRate(Handle soundfile);
 /**
  * Do not edit below this line!
  */
-public Extension __ext_symphonia = 
+public Extension __ext_soundlib2 = 
 {
 	name = "SoundLib2",
 	file = "soundlib2.ext",
