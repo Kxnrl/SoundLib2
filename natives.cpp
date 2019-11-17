@@ -115,10 +115,19 @@ static cell_t GetSoundSamplingRate(IPluginContext *pContext, const cell_t *param
 
 sp_nativeinfo_t g_Natives[] =
 {
+	{ "SoundFile.SoundFile", OpenSoundFile},
 	{ "OpenSoundFile", OpenSoundFile },
+
+	{ "SoundFile.Length.get", GetSoundLength },
 	{ "GetSoundLength", GetSoundLength },
+
+	{ "SoundFile.LengthInMilliseconds.get", GetSoundLengthInMilliseconds },
 	{ "GetSoundLengthInMilliseconds", GetSoundLengthInMilliseconds },
+
+	{ "SoundFile.Bitrate.get", GetSoundBitrate },
 	{ "GetSoundBitrate", GetSoundBitrate },
+
+	{ "SoundFile.SamplingRate.get", GetSoundSamplingRate },
 	{ "GetSoundSamplingRate", GetSoundSamplingRate },
 	{ NULL,	NULL },
 };

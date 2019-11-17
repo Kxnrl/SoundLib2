@@ -40,7 +40,7 @@
 /* Basic information exposed publicly */
 #define SMEXT_CONF_NAME			"SoundLib2"
 #define SMEXT_CONF_DESCRIPTION	"Sound Info Library"
-#define SMEXT_CONF_VERSION		"0.1"
+#define SMEXT_CONF_VERSION		"0.1.1"
 #define SMEXT_CONF_AUTHOR		"PerfectLaugh"
 #define SMEXT_CONF_URL			""
 #define SMEXT_CONF_LOGTAG		"SOUNDLIB2"

@@ -61,7 +61,7 @@ extern sp_nativeinfo_t g_Natives[];
 
 bool SoundLib::SDK_OnLoad(char * error, size_t maxlength, bool late)
 {
-	g_SoundFileType = handlesys->CreateType("SoundFile2", &g_FileTypeHandler, 0, NULL, NULL, myself->GetIdentity(), NULL);
+	g_SoundFileType = handlesys->CreateType("SoundFile", &g_FileTypeHandler, 0, NULL, NULL, myself->GetIdentity(), NULL);
 	sharesys->AddNatives(myself, g_Natives);
 	return true;
 }
